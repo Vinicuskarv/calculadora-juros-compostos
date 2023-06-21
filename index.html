@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Juros Compostos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Juros Compostos</h1>
+    <div class="container">
+        <br>
+        <label for="principal">Principal:</label>
+        <input type="number" id="principal" step="any">
+        <br>
+        <label for="interestRate">Taxa de Juros (%):</label>
+        <input type="number" id="interestRate" step="any">
+        <br>
+        <label for="years">Anos:</label>
+        <input type="number" id="years" step="any">
+        <br>
+        <label for="monthlyAddition">Adicional Mensal:</label>
+        <input type="number" id="monthlyAddition" step="any">
+        <br><br>
+    </div>
+    <br>
+    <button id="calculateButton">Calcular</button>
+    <p id="resulte"></p>
+    <div>
+        <button id="showCalculatorButton">Mostrar Calculadora</button>
+    
+        <div id="calculatorContainer" class="calculator">
+        <h1>Calculadora</h1>
+        <input type="number" id="num1" placeholder="Número 1">
+        <input type="number" id="num2" placeholder="Número 2">
+        <br>
+        <button id="addButton">Somar</button>
+        <button id="subtractButton">Subtrair</button>
+        <button id="multiplyButton">Multiplicar</button>
+        <button id="divideButton">Dividir</button>
+        <br>
+        <p id="result"></p>
+        </div>
+
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
